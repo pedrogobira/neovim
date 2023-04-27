@@ -9,6 +9,7 @@ lsp.ensure_installed({
   'sumneko_lua',
   'phpactor',
   'gopls',
+  'rust-analyzer',
 })
 
 local cmp = require('cmp')
