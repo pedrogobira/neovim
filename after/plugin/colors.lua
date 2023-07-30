@@ -1,5 +1,5 @@
 function colorize(color)
-	color = color or "gruvbox-baby"
+	color = color or "github_dark"
 	vim.cmd.colorscheme(color)
 end
 
