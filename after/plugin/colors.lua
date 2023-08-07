@@ -1,5 +1,5 @@
 function colorize(color)
-	color = color or "github_dark"
+	color = color or "catppuccin-mocha"
 	vim.cmd.colorscheme(color)
 end
 
