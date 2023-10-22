@@ -16,7 +16,8 @@ return require('packer').startup(function(use)
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
   -- use('projekt0n/github-nvim-theme')
-  use { "catppuccin/nvim", as = "catppuccin" }
+  -- use { "catppuccin/nvim", as = "catppuccin" }
+  use('luisiacc/gruvbox-baby')
 
   use('theprimeagen/harpoon')
 

@@ -3,7 +3,12 @@ local telescope = require('telescope')
 telescope.setup {
   defaults = {
    file_ignore_patterns = {
-     "node_modules", "build", "dist", "vendor"
+     "node_modules", "build", "dist", "vendor", "venv"
+   },
+   borderchars = {
+     prompt = { "─", " ", " ", " ", "─", "─", " ", " " },
+     results = { " " },
+     preview = { " " },
    },
   }
 }
