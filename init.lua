@@ -1,8 +1,8 @@
 --[[
 
 Neovim init file
-Maintainer: brainf+ck
-Website: https://github.com/brainfucksec/neovim-lua
+Maintainer: pedrogobira
+Website: https://github.com/pedrogobira/nvim
 
 --]]
 

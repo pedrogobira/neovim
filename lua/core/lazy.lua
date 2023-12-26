@@ -5,10 +5,6 @@
 -- Plugin manager: lazy.nvim
 -- URL: https://github.com/folke/lazy.nvim
 
--- For information about installed plugins see the README:
--- neovim-lua/README.md
--- https://github.com/brainfucksec/neovim-lua#readme
-
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
