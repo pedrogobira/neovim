@@ -10,7 +10,6 @@ Website: https://github.com/brainfucksec/neovim-lua
 require('core/lazy')
 require('core/autocmds')
 require('core/keymaps')
-require('core/colors')
 require('core/options')
 require('lsp/lspconfig')
 require('lsp/mason')
