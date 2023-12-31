@@ -90,5 +90,10 @@ lazy.setup({
 
     -- Harpoon (file navigation helper)
     { 'theprimeagen/harpoon' },
+
+    {
+      'stevearc/conform.nvim',
+      opts = {},
+    }
   },
 })

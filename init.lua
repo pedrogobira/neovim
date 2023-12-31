@@ -21,4 +21,5 @@ require('plugins/alpha-nvim')
 require('plugins/telescope')
 require('plugins/gitsigns')
 require('plugins/harpoon')
+require('plugins/conform')
 
