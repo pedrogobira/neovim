@@ -62,6 +62,3 @@ map("t", "<Esc>", "<C-\\><C-n>") -- exit
 
 -- Tagbar
 map("n", "<leader>z", ":TagbarToggle<CR>") -- open/close
-
--- File tree
-map("n", "<leader>oe", ":Ex<CR>")
