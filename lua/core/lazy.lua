@@ -91,12 +91,6 @@ lazy.setup({
 		-- Harpoon (file navigation helper)
 		{ "theprimeagen/harpoon" },
 
-    -- Autoformat
-		{
-			"stevearc/conform.nvim",
-			opts = {},
-		},
-
     -- AI
     { "github/copilot.vim" },
 
