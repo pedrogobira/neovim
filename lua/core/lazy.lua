@@ -96,5 +96,11 @@ lazy.setup({
 
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
+
+    -- Autoformat
+    {
+      'stevearc/conform.nvim',
+      opts = {},
+    },
 	},
 })
