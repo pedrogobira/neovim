@@ -8,7 +8,6 @@ telescope.setup({
 			"dist",
 			"vendor",
 			"venv",
-			"_templ.go",
 		},
 	},
 })
