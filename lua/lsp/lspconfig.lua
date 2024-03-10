@@ -138,3 +138,10 @@ for _, lsp in ipairs(servers) do
 		},
 	})
 end
+
+-- setting up the elixir language server
+-- you have to manually specify the entrypoint cmd for elixir-ls
+require('lspconfig').elixirls.setup {
+  cmd = { "/home/pedro/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" },
+  on_attach = on_attach
+}
