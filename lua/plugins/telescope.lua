@@ -4,10 +4,10 @@ telescope.setup({
 	defaults = {
 		file_ignore_patterns = {
 			"node_modules",
-			"build",
 			"dist",
 			"vendor",
 			"venv",
+      "deps",
 		},
 	},
 })
