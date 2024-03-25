@@ -92,15 +92,9 @@ lazy.setup({
 		{ "theprimeagen/harpoon" },
 
     -- AI
-    { "github/copilot.vim" },
+    -- { "github/copilot.vim" },
 
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
-
-    -- Autoformat
-    {
-      'stevearc/conform.nvim',
-      opts = {},
-    },
 	},
 })
