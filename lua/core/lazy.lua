@@ -88,9 +88,6 @@ lazy.setup({
 		-- Harpoon (file navigation helper)
 		{ "theprimeagen/harpoon" },
 
-    -- AI
-    -- { "github/copilot.vim" },
-
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
 	},
