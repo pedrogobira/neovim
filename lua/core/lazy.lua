@@ -40,9 +40,6 @@ lazy.setup({
 		-- Indent line
 		{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 
-		-- Tag viewer
-		{ "preservim/tagbar" },
-
 		-- Autopair
 		{
 			"windwp/nvim-autopairs",

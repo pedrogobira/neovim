@@ -60,5 +60,3 @@ map("n", "<leader>q", ":qa!<CR>")
 map("n", "<C-t>", ":Term<CR>", { noremap = true }) -- open
 map("t", "<Esc>", "<C-\\><C-n>") -- exit
 
--- Tagbar
-map("n", "<leader>z", ":TagbarToggle<CR>") -- open/close
