@@ -28,9 +28,6 @@ end
 -- Start setup
 lazy.setup({
 	spec = {
-		-- Colorscheme
-		{ "Mofiqul/vscode.nvim" },
-
 		-- Git labels
 		{ "lewis6991/gitsigns.nvim" },
 
