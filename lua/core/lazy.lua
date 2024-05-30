@@ -89,6 +89,9 @@ lazy.setup({
     { 'stevearc/oil.nvim' },
 
     -- Colorscheme
-    { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
+    {
+      "olimorris/onedarkpro.nvim",
+      priority = 1000, -- Ensure it loads first
+    }
 	},
 })
