@@ -87,5 +87,8 @@ lazy.setup({
 
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
+
+    -- Colorscheme
+    { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 },
 	},
 })
