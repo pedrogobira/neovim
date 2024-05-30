@@ -8,6 +8,7 @@ telescope.setup({
 			"vendor",
 			"venv",
       "deps",
+      "__pycache__",
 		},
 	},
 })
