@@ -87,16 +87,5 @@ lazy.setup({
 
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
-
-    -- Colorscheme
-    {
-      "RRethy/base16-nvim",
-      priority = 1000, -- Ensure it loads first
-    },
-    {
-      "neanias/everforest-nvim",
-      priority = 1000, -- Ensure it loads first
-    },
-    { "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
 	},
 })
