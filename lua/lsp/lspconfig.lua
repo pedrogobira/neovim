@@ -141,8 +141,8 @@ end
 
 -- setting up the elixir language server
 -- you have to manually specify the entrypoint cmd for elixir-ls
-require('lspconfig').elixirls.setup {
-  cmd = { "/home/pedro/.local/share/nvim/mason/packages/elixir-ls/language_server.sh" },
+require('lspconfig').lexical.setup {
+  cmd = { "/home/pedro/.local/share/nvim/mason/packages/lexical/lexical" },
   on_attach = on_attach,
   capabilities = capabilities
 }
