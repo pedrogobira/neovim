@@ -87,8 +87,8 @@ lazy.setup({
 
     -- Filesystem as vim buffer
     { 'stevearc/oil.nvim' },
-    { "blazkowolf/gruber-darker.nvim" },
 
+    -- Git plugin
     { "tpope/vim-fugitive" }
 	},
 })
