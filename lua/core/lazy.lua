@@ -34,9 +34,6 @@ lazy.setup({
 		-- Treesitter
 		{ "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
-		-- Indent line
-		{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
-
 		-- Autopair
 		{
 			"windwp/nvim-autopairs",
