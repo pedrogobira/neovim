@@ -23,7 +23,11 @@ autocmd("TextYankPost", {
 -- Remove whitespace on save
 autocmd("BufWritePre", {
 	pattern = "",
-	command = ":%s/\\s\\+$//e",
+  callback = function()
+    if vim.bo.filetype ~= "php" then
+      vim.cmd([[%s/\s\+$//e]])
+    end
+  end,
 })
 
 -- Don't auto commenting new lines
