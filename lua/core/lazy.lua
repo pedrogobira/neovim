@@ -86,6 +86,7 @@ lazy.setup({
     { 'stevearc/oil.nvim' },
 
     -- Git plugin
-    { "tpope/vim-fugitive" }
+    { "tpope/vim-fugitive" },
+    { "blazkowolf/gruber-darker.nvim" },
 	},
 })
